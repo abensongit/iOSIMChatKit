@@ -1,0 +1,6 @@
+framework module Pods_iOSIMChatKit {
+  umbrella header "Pods-iOSIMChatKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
