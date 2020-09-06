@@ -9,6 +9,12 @@
 
 @implementation CFCMessageMainViewController
 
+#pragma mark 设置状态栏样式类型
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (instancetype)init
 {
     if(self = [super init]) {
